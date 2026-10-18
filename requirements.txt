@@ -1,0 +1,8 @@
+# Requirements for the Cultural Contextual Sentiment Analyzer project
+fastapi==0.110.0          # Web framework for building the API
+uvicorn[standard]==0.27.0  # ASGI server for FastAPI
+transformers==4.41.2      # State‑of‑the‑art NLP models
+scikit-learn==1.5.0       # Classic ML algorithms & utilities
+pytest==8.2.2             # Testing framework
+python-multipart==0.0.9   # Handles form data in FastAPI endpoints
+# End of requirements.txt
